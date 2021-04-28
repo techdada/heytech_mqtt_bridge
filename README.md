@@ -11,14 +11,12 @@ install docker for your platform
 
 clone the repository
 
-```git clone https://github.com/techdada/heytech_mqtt_bridge
-cd heytech_mqtt_bridge
-```
+```git clone https://github.com/techdada/heytech_mqtt_bridge```
+```cd heytech_mqtt_bridge```
 
 install dependencies
 
-```npm install
-```
+```npm install```
 
 copy config/default-example.json to config/default.json and enter your required settings there.
 
@@ -33,6 +31,5 @@ copy config/default-example.json to config/default.json and enter your required 
 
 then, build and run docker
 
-```docker build
-docker run
-```
+```docker build```
+```docker run```
