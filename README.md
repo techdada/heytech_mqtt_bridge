@@ -94,12 +94,12 @@ The Heytech configuration, like shutter names, scnearios etc., is read directly 
 
 You may either use the name or the numeric ID to address the shutters. The shutters use a naming scheme consisting of [type].[identifier], so e.g.:
 
-control/heytech/shutter.Livingroom\\
+control/heytech/shutter.Livingroom  
 control/heytech/shutter.Office
 
 or:
 
-control/heytech/shutter.12\\
+control/heytech/shutter.12  
 control/heytech/shutter.2
 
 For using the names, it is recommended to avoid special characters in Heytech controller configuration, like +, #, $ or anything else what could be interpreted wrongly. Space is OK. 
