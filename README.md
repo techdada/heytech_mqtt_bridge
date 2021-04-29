@@ -2,11 +2,11 @@
 
 Control HeyTech roller shutters from MQTT. Based on the great work of Jey-Cee and ansgarschulte (https://github.com/Jey-Cee/ioBroker.heytech)
 
-To make it useable independently of ioBroker it communicates purely by MQTT instead of being an ioBroker adapter. So far only the basic functions are tested, so open/close and goto Position of the shutters.
+To make it useable independently of ioBroker it communicates purely by MQTT instead of being an ioBroker adapter. So far only the basic functions are tested, so open/close and goto Position of the shutters. 
 
 ## requirements
 
-* Heytech shutter controller. I am using RS879M, but the others which have a LAN connection available should work, too. 
+* A Heytech shutter controller. I am using RS879M, but the others which have a LAN connection available should work, too. 
 * Heytech LAN module.
 * MQTT broker (in best case having TLS1.2+ enabled and having a proper authorization concept, at least user/password protection)
 * Any MQTT client. I am using most frequently mosquitto-cli tools (Linux), MQTT Dash (Android) and Home Assistant (www.home-assistant.io). Others should do well, too.
@@ -88,7 +88,7 @@ for MQTT:
 * Username / password for the broker
 * Topic root nodes for control and status topic.
 
-The rest of the Heytech configuration is read directly from the controller. 
+The Heytech configuration, like shutter names, scnearios etc., is read directly from the controller and hence can only be adapted there.
 
 ## Handling of the MQTT messages
 
